@@ -1,0 +1,50 @@
+#product {
+  display: inline-block;
+  width: 720px;
+  padding: 12px 20px;
+  margin-top: 32px;
+
+  border: 1px solid rgba(222, 222, 222, 1);
+  background-color: white;
+
+  /* R角 支援三種瀏覽器寫法 */
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+h1 {
+  display: inline-block;
+  width: 100%;
+  hyphens: 44px;
+  line-height: 44px;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: separate;
+  text-align: left;
+  margin-top: 32px;
+}
+
+/* tr + tr 代表第二個 tr 之後(包含) */
+/* 所以是 第二個之後 tr 下的 th 與 td */
+tr + tr th,
+tr + tr td {
+  border-top: 1px solid rgba(222, 222, 222, 1);
+}
+
+th {
+  border-right: 1px solid rgba(222, 222, 222, 1);
+  width: 100px;
+}
+
+/* 同時一起設定 th 與 td */
+th, td {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 4px;
+}

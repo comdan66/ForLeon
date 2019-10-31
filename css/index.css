@@ -1,0 +1,48 @@
+#products {
+  display: inline-block;
+  width: 720px;
+  padding: 12px 20px;
+  margin-top: 32px;
+
+  border: 1px solid rgba(222, 222, 222, 1);
+  background-color: white;
+
+  /* R角 支援三種瀏覽器寫法 */
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: separate;
+  text-align: left;
+}
+
+th {
+  border-bottom: 1px solid rgba(222, 222, 222, 1);
+}
+
+/* 同時一起設定 th 與 td */
+th, td {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 4px;
+}
+.id {
+  width: 100px;
+}
+.title {
+  width: 150px;
+}
+.price {
+  width: calc(100% - 100px - 150px - 100px);
+}
+.view {
+  width: 100px;
+}
+a {
+  color: rgba(24, 144, 255, 1.00);
+}
