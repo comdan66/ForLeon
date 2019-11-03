@@ -1,0 +1,25 @@
+#box {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid rgba(255, 0, 0, .3);
+}
+
+.unit1, .unit2, .unit3 {
+  float: left;
+  display: inline-block;
+  height: 44px;
+}
+.unit1 {
+  width: 100px;
+  background-color: red;
+}
+.unit3 {
+  width: 150px;
+  background-color: yellow;
+  text-align: right;
+}
+.unit2 {
+  background-color: blue;
+  width: calc(100% - 100px - 150px);
+  text-align: center;
+}
